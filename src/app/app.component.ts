@@ -12,6 +12,7 @@ loginForm: any;
 data: any;
 dataId: any;
   // name = 'Angular';
+
   ngOnInit(): void {
     this.getdata();
     this.loginForm = new FormGroup({
@@ -21,10 +22,7 @@ dataId: any;
       place: new FormControl("", Validators.required),
     })
   }
-  // dataform = new FormGroup({
-  //   name1: new FormControl('', Validators.required),
-  //   pwd: new FormControl('', Validators.required)
-  // })
+  
   login() {
     let data = this.loginForm.value;
     console.log(data)
