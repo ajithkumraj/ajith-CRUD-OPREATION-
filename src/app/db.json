@@ -1,0 +1,18 @@
+{
+  "student": [
+    {
+      "id": 1,
+      "name": "AJITH",
+      "age": 23,
+      "dob": "2022-02-26",
+      "place": "KARUR"
+    },
+    {
+      "id": 2,
+      "name": "THE V3 RIDER",
+      "age": 23,
+      "dob": "2022-02-28",
+      "place": "TIRUPPUR"
+    }
+  ]
+}
